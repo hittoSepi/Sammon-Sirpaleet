@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Sammon Sirpaleet - MVP</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #111;
+            font-family: monospace;
+        }
+
+        #hud {
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            color: #e2d1a0;
+            background: rgba(20, 20, 20, 0.85);
+            padding: 10px 14px;
+            border: 2px solid #5a4b32;
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="hud">
+        <div><strong>Sammon Sirpaleet (M1 & M2)</strong></div>
+        <div id="status">Yhdistetään palvelimeen...</div>
+        <div style="margin-top:6px; font-size: 12px; color: #aaa;">Kamera: Q / E (Kierto) | Rulla (Zoom)</div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+{
+    "name": "sammon-sirpaleet",
+    "private": true,
+    "workspaces": [
+        "shared",
+        "server",
+        "client"
+    ],
+    "scripts": {
+        "dev:server": "npm --workspace=server run dev",
+        "dev:client": "npm --workspace=client run dev"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "CommonJS",
+        "ignoreDeprecations": "6.0",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "useDefineForClassFields": false,
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
